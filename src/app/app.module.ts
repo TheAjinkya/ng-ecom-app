@@ -7,6 +7,7 @@ import { ProductDetailsComponent } from './product/product-details/product-detai
 import { CartDetailsComponent } from './cart/cart-details/cart-details.component';
 import { CheckoutPageComponent } from './cart/checkout-page/checkout-page.component';
 import { ProductListComponent } from './product/product-list/product-list.component';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProductListComponent } from './product/product-list/product-list.compon
     CheckoutPageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
