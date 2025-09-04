@@ -1,0 +1,6 @@
+body.dark {
+  @include darken();
+}
+body.light {
+  @include lighten();
+}
